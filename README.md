@@ -1,4 +1,4 @@
-# Laravel Migrations Generator Laravel 5/6/7/8 +
+# Laravel Migrations Generator Laravel 5/6/7/8/9/10
 [![Latest Stable Version](https://poser.pugx.org/oscarafdev/migrations-generator/v/stable)](https://packagist.org/packages/oscarafdev/migrations-generator)
 [![Monthly Downloads](https://poser.pugx.org/oscarafdev/migrations-generator/d/monthly)](//packagist.org/packages/oscarafdev/migrations-generator)
 [![License](https://poser.pugx.org/oscarafdev/migrations-generator/license)](https://packagist.org/packages/oscarafdev/migrations-generator)
@@ -10,7 +10,7 @@ Generate Laravel Migrations from an existing database, including indexes and for
 https://t.me/h0rnero
 
 
-## Laravel 6/7/8/9 installation
+## Laravel 6/7/8/9/10 installation
 
 The recommended way to install this is through composer:
 
