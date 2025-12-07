@@ -5,6 +5,15 @@
 
 Generate Laravel Migrations from an existing database, including indexes and foreign keys!
 
+# Versioning & compatibility
+
+| Branch / Tag  | Laravel support | PHP support | Notes |
+|---------------|-----------------|-------------|-------|
+| `laravel-9.x` (`9.0.0`) | 9.x / 10.x | >= 8.2 | Current line. Install with `composer require oscarafdev/migrations-generator:^9.0` to target Laravel 9+. |
+| Legacy `2.x` (`2.0.24`) | 5.x – 8.x | ^5.6 &#124;&#124; ^7.0 &#124;&#124; ^8.0 | Last release for older apps (ships with the legacy generator dependency). |
+
+Each Laravel major will get its own maintenance branch/tag series (e.g. `laravel-11.x` → `11.y.z`). See `doc/versions.md` for the full compatibility matrix.
+
 # Contact
 
 https://t.me/h0rnero
