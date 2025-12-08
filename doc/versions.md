@@ -14,7 +14,8 @@ This document summarizes which platform combinations are supported by `oscarafde
 | 2.0.22      | 2020-08-28 | ^7.0                               | ^5.0 &#124;&#124; ^6.0 &#124;&#124; ^7.0 | Maintenance release. |
 | 2.0.23      | 2020-08-28 | ^7.0                               | ^5.0 &#124;&#124; ^6.0 &#124;&#124; ^7.0 | Adds Laravel 7 fixes. |
 | 2.0.24      | 2021-01-25 | ^5.6 &#124;&#124; ^7.0 &#124;&#124; ^8.0 | ^5.0 &#124;&#124; ^6.0 &#124;&#124; ^7.0 &#124;&#124; ^8.0 | First release with Laravel 8. |
-| 9.0.0       | 2025-07-12 | ^8.2                               | ^9.0 &#124;&#124; ^10.0               | Aligns with the new Laravel 9 branch; depends on `laravel-4-generators` 9.x. |
+| 9.0.0       | 2025-07-12 | ^8.2                               | ^9.0                                   | Aligns with the Laravel 9 branch; depends on `laravel-4-generators` 9.x. |
+| 10.0.0      | 2025-07-12 | ^8.1                               | ^10.0                                  | Dedicated Laravel 10 line; requires `laravel-4-generators` 10.x. |
 
 `master` now tracks future development (Laravel 10+). For long-term support on a particular Laravel major, use the matching `laravel-<major>.x` branch (e.g., `laravel-9.x`) and tags (`9.y.z`).
 
