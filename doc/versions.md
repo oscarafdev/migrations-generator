@@ -14,16 +14,18 @@ This document summarizes which platform combinations are supported by `oscarafde
 | 2.0.22      | 2020-08-28 | ^7.0                               | ^5.0 &#124;&#124; ^6.0 &#124;&#124; ^7.0 | Maintenance release. |
 | 2.0.23      | 2020-08-28 | ^7.0                               | ^5.0 &#124;&#124; ^6.0 &#124;&#124; ^7.0 | Adds Laravel 7 fixes. |
 | 2.0.24      | 2021-01-25 | ^5.6 &#124;&#124; ^7.0 &#124;&#124; ^8.0 | ^5.0 &#124;&#124; ^6.0 &#124;&#124; ^7.0 &#124;&#124; ^8.0 | First release with Laravel 8. |
-| 9.0.0       | 2025-07-12 | ^8.2                               | ^9.0                                   | Laravel 9 compatibility line; depends on `laravel-4-generators` 9.x. |
-| 10.0.0      | 2025-07-12 | ^8.1                               | ^10.0                                  | Laravel 10 line; depends on `laravel-4-generators` 10.x. |
-| 11.0.0      | 2025-07-12 | ^8.2                               | ^11.0                                  | Laravel 11 line; depends on `laravel-4-generators` 11.x. |
+| 9.0.0       | 2025-07-12 | ^8.2                               | ^9.0                                  | Laravel 9 compatibility line; depends on `laravel-4-generators` 9.x. |
+| 10.0.0      | 2025-07-12 | ^8.1                               | ^10.0                                 | Laravel 10 line; depends on `laravel-4-generators` 10.x. |
+| 11.0.0      | 2025-07-12 | ^8.2                               | ^11.0                                 | Laravel 11 line; depends on `laravel-4-generators` 11.x. |
+| 12.0.0      | 2025-07-12 | ^8.3                               | ^12.0                                 | Laravel 12 line; depends on `laravel-4-generators` 12.x. |
 
-`master` tracks the latest development (currently Laravel 11). For long-term support on a particular Laravel major, use the matching `laravel-<major>.x` branch (e.g., `laravel-10.x`) and tags (`10.y.z`).
+`master` now tracks future development (Laravel 12+). For long-term support on a particular Laravel major, use the matching `laravel-<major>.x` branch (e.g., `laravel-10.x`) and tags (`10.y.z`).
 
 ## oscarafdev/laravel-4-generators
 
 | Release / Branch    | PHP constraint | Laravel constraint | Notes |
 |---------------------|----------------|--------------------|-------|
+| 12.0.0 (`laravel-12.x`) | ^8.3        | ^12.0 | Use for Laravel 12 installs. |
 | 11.0.0 (`laravel-11.x`) | ^8.2        | ^11.0 | Use for Laravel 11 installs. |
 | 10.0.0 (`laravel-10.x`) | ^8.1        | ^10.0 | Use for Laravel 10 installs. |
 | 9.0.0 (`laravel-9.x`) | ^8.0.2        | ^9.0 | Use for Laravel 9 installs. |
