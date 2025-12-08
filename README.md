@@ -9,18 +9,19 @@ Generate Laravel Migrations from an existing database, including indexes and for
 
 | Branch / Tag  | Laravel support | PHP support | Notes |
 |---------------|-----------------|-------------|-------|
-| `laravel-10.x` (`10.0.0`) | 10.x | >= 8.1 | New line for Laravel 10 projects. `composer require oscarafdev/migrations-generator:^10.0`. |
-| `laravel-9.x` (`9.0.0`) | 9.x | >= 8.2 | Use for Laravel 9. |
-| Legacy `2.x` (`2.0.24`) | 5.x – 8.x | ^5.6 &#124;&#124; ^7.0 &#124;&#124; ^8.0 | Last release for older apps (ships with the legacy generator dependency). |
+| `laravel-11.x` (`11.0.0`) | 11.x | >= 8.2 | Install with `composer require oscarafdev/migrations-generator:^11.0`. |
+| `laravel-10.x` (`10.0.0`) | 10.x | >= 8.1 | Use for Laravel 10 apps (`^10.0`). |
+| `laravel-9.x` (`9.0.0`) | 9.x | >= 8.2 | Use `^9.0` to stay on the Laravel 9-compatible line. |
+| Legacy `2.x` (`2.0.24`) | 5.x ? 8.x | ^5.6 &#124;&#124; ^7.0 &#124;&#124; ^8.0 | Last release for older apps (ships with the legacy generator dependency). |
 
-Each Laravel major will get its own maintenance branch/tag series (e.g. `laravel-11.x` → `11.y.z`). See `doc/versions.md` for the full compatibility matrix.
+Each Laravel major has its own maintenance branch/tag series (e.g. `laravel-11.x` -> `11.y.z`). See `doc/versions.md` for the full compatibility matrix.
 
 # Contact
 
 https://t.me/h0rnero
 
 
-## Laravel 6/7/8/9/10 installation
+## Laravel 6/7/8/9/10/11 installation
 
 The recommended way to install this is through composer:
 
