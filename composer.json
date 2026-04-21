@@ -19,7 +19,7 @@
 		"php": "^8.3",
 		"illuminate/support": "^12.0",
 		"oscarafdev/laravel-4-generators": "^12.0",
-		"doctrine/dbal": "^3.0"
+		"doctrine/dbal": "^4.0"
 	},
 	"autoload": {
 		"psr-0": {

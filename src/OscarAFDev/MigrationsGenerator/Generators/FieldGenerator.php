@@ -14,6 +14,8 @@ class FieldGenerator {
 		'bigint'   => 'bigInteger',
 		'datetime' => 'dateTime',
 		'blob'     => 'binary',
+		'guid'     => 'uuid',
+		'uuid'     => 'uuid',
 	];
 
 	/**
