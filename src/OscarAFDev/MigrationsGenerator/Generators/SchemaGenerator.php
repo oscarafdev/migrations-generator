@@ -54,12 +54,27 @@ class SchemaGenerator {
 
 		$this->database = $connection->getDatabase();
 
-		$this->schema = $connection->getSchemaManager();
+		$this->schema = $this->getSchemaManager($connection);
 		$this->fieldGenerator = new FieldGenerator();
 		$this->foreignKeyGenerator = new ForeignKeyGenerator();
 
 		$this->ignoreIndexNames = $ignoreIndexNames;
 		$this->ignoreForeignKeyNames = $ignoreForeignKeyNames;
+	}
+
+	/**
+	 * DBAL 4 replaced getSchemaManager() with createSchemaManager().
+	 *
+	 * @param object $connection
+	 * @return mixed
+	 */
+	protected function getSchemaManager($connection)
+	{
+		if (method_exists($connection, 'createSchemaManager')) {
+			return $connection->createSchemaManager();
+		}
+
+		return $connection->getSchemaManager();
 	}
 
 	/**

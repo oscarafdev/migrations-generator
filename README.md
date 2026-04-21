@@ -9,7 +9,7 @@ Generate Laravel Migrations from an existing database, including indexes and for
 
 | Branch / Tag  | Laravel support | PHP support | Notes |
 |---------------|-----------------|-------------|-------|
-| `laravel-12.x` (`12.0.0`) | 12.x | >= 8.3 | Install with `composer require oscarafdev/migrations-generator:^12.0`. |
+| `laravel-12.x` (`12.0.0`) | 12.x | >= 8.3 | Uses `doctrine/dbal:^4.0` to match the Laravel 12 / Carbon 3 ecosystem. |
 | `laravel-11.x` (`11.0.0`) | 11.x | >= 8.2 | Use `^11.0` for Laravel 11 apps. |
 | `laravel-10.x` (`10.0.0`) | 10.x | >= 8.1 | Use `^10.0` for Laravel 10 apps. |
 | `laravel-9.x` (`9.0.0`) | 9.x | >= 8.2 | Use `^9.0` to stay on the Laravel 9-compatible line. |
@@ -29,6 +29,8 @@ The recommended way to install this is through composer:
 ```bash
 composer require oscarafdev/migrations-generator --dev
 ```
+
+For Laravel 12, the `12.x` line now targets `doctrine/dbal:^4.0`, which aligns with the Carbon 3 dependency tree used by that ecosystem.
 
 In Laravel 5.5+ the service providers will automatically get registered. 
 
